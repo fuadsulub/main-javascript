@@ -7,6 +7,8 @@ console.log(a%b);
 /*post-increment*/
 console.log(a++);
 console.log(a);
+//pre-increment
+console.log(++a)
 //pre-decrement
 console.log(--b);
 //post increment
