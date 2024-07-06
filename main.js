@@ -52,7 +52,7 @@ console.log(w < z);
 // greater than or equal
 console.log(w >= z);
 
-// less than or equal
+// less than or equalclear
 console.log( w <= z);
 
 
