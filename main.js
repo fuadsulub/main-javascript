@@ -66,3 +66,30 @@ console.log(c > d);
 console.log(c < d);
 console.log(c >= d);
 console.log(c <= d);
+
+//logical operators
+// and &&
+let  isAdelt = true;
+let  hasPermision =false;
+console.log(isAdelt && hasPermision);
+
+// or || 
+console.log(isAdelt || hasPermision);
+// not !
+console.log(!isAdelt);
+console.log(hasPermision);
+
+// logical operators
+let isSunny = true;
+let isWeekend = true;
+console.log(isSunny && isWeekend);
+//strings operators
+ let firstName = "fuad"
+ let lastName = "sulub"
+ console.log(firstName + " " + lastName);
+
+ let  greeting = "hello ";
+greeting += firstName;
+greeting += " " + lastName;
+ greeting += " good morning";
+ console.log(greeting)
