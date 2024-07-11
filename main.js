@@ -93,3 +93,45 @@ greeting += firstName;
 greeting += " " + lastName;
  greeting += " good morning";
  console.log(greeting)
+ 
+//function is a block of code designed to perform a specific task,
+
+function greet(){
+  console.log("hello world");
+}
+
+greet();
+
+// parameters and Arguments
+
+ function greet(name){
+console.log("hello " + name)
+}
+greet("fuad");
+greet('casha');
+greet("guled");
+
+
+//function declaration
+function calculateTotal(price,quantity){
+  console.log("Total price: $" + price * quantity);
+}
+calculateTotal(20,2);
+calculateTotal(5,4);
+calculateTotal(15,2);
+calculateTotal(10,2)
+
+//return
+function add(a,b){
+return a+b;
+}
+let result = add(20,40);
+console.log(result);
+
+//function expression
+const greet =function(name){
+  console.log("hello " + name)
+
+}
+greet("halim");
+greet("hassen")
