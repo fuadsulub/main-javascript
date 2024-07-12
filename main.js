@@ -129,9 +129,70 @@ let result = add(20,40);
 console.log(result);
 
 //function expression
-const greet =function(name){
+const bariido =function(name){
   console.log("hello " + name)
 
 }
-greet("halim");
-greet("hassen")
+bariido("halim");
+bariido("hassen")
+
+
+ // Arrow funcion 
+let ads = (s,o)=> s+o;
+console.log(ads(6,4));
+console.log(ads(-15,5));
+console.log(ads(40,40));
+
+
+//Arrow function
+const addition = (i,j)=>{
+  return i+j;
+};
+console.log(addition(8,10));
+console.log(addition(10,20));
+console.log(addition(-50,20));
+console.log(addition(50,20));
+
+
+//arrow function my idea
+const additions = (f,d)=> {
+console.log( f+d)
+};
+additions(3,5);
+additions(-40,20);
+additions(100,-50);
+additions(60,10);
+
+let salaam =(name)=>{
+  console.log("hello " + name)
+};
+salaam("mouse");
+salaam("omer");
+
+// scope(ES6) function
+
+// global variable
+let globalVariable = "i'm global variable";
+function showVariable(){
+  console.log(globalVariable);
+}
+showVariable();
+console.log(globalVariable);
+
+//local variable 
+function showLocalVariable(){
+  let localVariable = "i'm local variable";
+  console.log(localVariable);
+}
+// console.log(localVariable);
+showLocalVariable()
+// block scope
+{
+  let myName = "fuad"
+  const age = 39;
+  var year = 2030;
+  console.log(age);
+  console.log(myName);
+  console.log(year)
+  // var is works outside and inside block
+}
