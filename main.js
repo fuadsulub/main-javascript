@@ -199,3 +199,63 @@ showLocalVariable()
 // Arrays and objects
 let names = ['fuad', 'hassan', 'hussein', 'nour'];
 console.log(names);
+
+
+
+
+// Array methods 
+let colors = ['black', 'red', 'white','green'];
+console.log(colors);
+
+console.log("after push")
+colors.push("blue");
+console.log(colors);
+
+console.log("after pop")
+colors.pop();
+console.log(colors);
+
+console.log("after unshift")
+colors.unshift("gray");
+console.log(colors);
+
+console.log("after shift");
+colors.shift(colors);
+console.log(colors);
+//length
+console.log(colors.length);
+
+// practice 7
+let color =["white","green","red"];
+console.log(color);
+
+console.log("after push")
+color.push("blue");
+console.log(color);
+console.log("after shift");
+color.shift("white");
+console.log(color);
+
+//objects
+
+let person = {
+  name : "fuad",
+  age : 30,
+  city : "yoale",
+}
+console.log("two console known as off")
+console.log(person.name);
+console.log(person.city)
+console.log(person.age)
+console.log(person["name"])
+console.log(person["city"])
+console.log(person["age"])
+
+let car = {
+  make: "jeep group",
+  model: "jeep1",
+  year: 1941,
+}
+console.log(car.make);
+console.log(car.model);
+console.log(car.year);
