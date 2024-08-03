@@ -196,3 +196,6 @@ showLocalVariable()
   console.log(year)
   // var is works outside and inside block
 }
+// Arrays and objects
+let names = ['fuad', 'hassan', 'hussein', 'nour'];
+console.log(names);
